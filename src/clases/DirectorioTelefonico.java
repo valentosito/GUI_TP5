@@ -46,7 +46,7 @@ public class DirectorioTelefonico {
         
     }
     
-    public Set<Long> buscarTelefono(String apellido){
+    public TreeSet<Long> buscarTelefono(String apellido){
     
         TreeSet<Long> telefonos = new TreeSet<>();
         
@@ -84,7 +84,7 @@ public class DirectorioTelefonico {
     */
     }
     
-    public ArrayList<Contacto> buscarContacto(String ciudad){
+    public ArrayList<Contacto> buscarContactos(String ciudad){
         
         ArrayList<Contacto> contactosEncontrados = new ArrayList<>();
         
